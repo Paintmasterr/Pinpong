@@ -28,7 +28,8 @@ class Paddle():
         self.rect = None
 
     def draw(self):
-        self.rect = pygame.draw.rect(screen, self.color, (self.x, self.y, self.width, self.height))
+        self.rect = pygame.draw.rect
+        (screen, self.color, (self.x, self.y, self.width, self.height))
         if self.up == True and self.y > 0:
             self.y = self.y - self.speed
         if self.down == True and self.y < 500:
@@ -55,7 +56,8 @@ class Ball():
             self.hit = "red"
 
     def draw(self):
-        self.rect = pygame.draw.circle(screen, self.color, (self.x, self.y), self.radius)
+        self.rect = pygame.draw.circle
+        (screen, self.color, (self.x, self.y), self.radius)
         self.x = self.x - self.xmove
         self.y = self.y + self.ymove
         if self.y > 580 or self.y < 0:
@@ -67,7 +69,8 @@ class Ball():
             if self.blue_score == 3:
                 screen.fill((0, 0, 0))
                 self.font = pygame.font.Font("freesansbold.ttf", 50)
-                self.win_blue = self.font.render("Blue Wins!", True, (0, 0, 255))
+                self.win_blue = self.font.render
+                ("Blue Wins!", True, (0, 0, 255))
                 screen.blit(self.win_blue, (150, 300))
                 pygame.display.update()
                 time.sleep(5)
@@ -138,8 +141,9 @@ def menu():
                     pygame.quit()
                     exit()
 
-
     menu()
+
+
 def Scoredraw(msg, position, size, color):
     font = pygame.font.Font("freesansbold.ttf", size)
     text = font.render(str(msg), True, color)
