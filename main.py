@@ -187,7 +187,7 @@ while True:
     if (ball.rect.colliderect(paddle2.rect) and ball.hit == "red"):
         ball.hit = "blue"
         ball.xmove = -ball.xmove
-        ball.ymove = random.randint(-5, 5)
+        ball.ymove = random.randint(-5,5)
     elif (ball.rect.colliderect(paddle1.rect) and ball.hit == "blue"):
         ball.hit = "red"
         ball.xmove = -ball.xmove
