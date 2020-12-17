@@ -68,7 +68,8 @@ class Ball():
             self.hit = "red"
             if self.blue_score == 3:
                 screen.fill((0, 0, 0))
-                self.font = pygame.font.Font("freesansbold.ttf", 50)
+                self.font = pygame.font.Font
+                ("freesansbold.ttf", 50)
                 self.win_blue = self.font.render
                 ("Blue Wins!", True, (0, 0, 255))
                 screen.blit(self.win_blue, (150, 300))
