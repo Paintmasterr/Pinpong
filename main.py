@@ -68,6 +68,8 @@ def b_down():
     y = b.ycor()
     y -= 20
     b.sety(y)
+
+
 def close():
     global Continue
     Continue = False
@@ -98,14 +100,18 @@ while Continue:
         ball.dx *= -1
         score_a += 1
         pen.clear()
-        pen.write(f'Player A: {score_a} AI: {score_b}', align="center", font=("Courier", 24, "italic"))
+        pen.write(
+            f'Player A: {score_a} AI: {score_b}', align="center", font=(
+                "Courier", 24, "italic"))
 
     if ball.xcor() < -390:
         ball.goto(0, 0)
         ball.dx *= -1
         score_b += 1
         pen.clear()
-        pen.write(f'Player A:{score_a} AI: {score_b}', align="center", font=("Courier", 24, "italic"))
+        pen.write(
+            f'Player A:{score_a} AI: {score_b}', align="center", font=(
+                "Courier", 24, "italic"))
 
     if a.ycor() > 260:
         a.goto(-350, 260)
@@ -119,12 +125,14 @@ while Continue:
     if b.ycor() < -240:
         b.goto(350, -240)
 
-    if ball.xcor() > 330 and ball.xcor() < 340 and (ball.ycor() < b.ycor() + 40 and ball.ycor() > b.ycor() - 40):
+    if ball.xcor() > 330 and ball.xcor() < 340 and
+    (ball.ycor() < b.ycor() + 40 and ball.ycor() > b.ycor() - 40):
         ball.setx(330)
         ball.dx *= -1
         winsound.PlaySound("pongbounce.wav", winsound.SND_ASYNC)
 
-    if ball.xcor() < -330 and ball.xcor() > -340 and (ball.ycor() < a.ycor() + 40 and ball.ycor() > a.ycor() - 40):
+    if ball.xcor() < -330 and ball.xcor() > -340 and
+    (ball.ycor() < a.ycor() + 40 and ball.ycor() > a.ycor() - 40):
         ball.setx(-330)
         ball.dx *= -1
         winsound.PlaySound("pongbounce.wav", winsound.SND_ASYNC)
