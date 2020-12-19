@@ -1,5 +1,7 @@
 Akif Can DUMAN , 
-Kalmyrza 
+
+Zholchubekov Kalmyrza ,
+
 COM20-B
 
 # Pinpong Game
