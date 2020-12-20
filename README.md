@@ -1,3 +1,4 @@
+#Names Of Those Who Made This Project;
 Akif Can DUMAN , 
 
 Zholchubekov Kalmyrza (https://github.com/Paintmasterr)
@@ -5,12 +6,13 @@ Zholchubekov Kalmyrza (https://github.com/Paintmasterr)
 
 COM20-B
 
-# Pinpong Game
+# This Project YouTube Link;
 
 https://www.youtube.com/watch?v=ZiZdOqJtVFY
 
 Programing Languages 1 Final Project
 
+# Pinpong Game Feedback;
 
 -Before making this game, we normally tried it with pygame, but due to some bugs and we couldn't fix it, we had to use the Turtle library and we started the game production phase.
 
