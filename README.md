@@ -1,6 +1,7 @@
 Akif Can DUMAN , 
 
-Zholchubekov Kalmyrza ,
+Zholchubekov Kalmyrza (https://github.com/Paintmasterr)
+,
 
 COM20-B
 
