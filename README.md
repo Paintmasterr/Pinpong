@@ -34,17 +34,17 @@ Programing Languages 1 Final Project
 
 ## Modules 
 
-turtle
+turtle\
 winsound
 
 ## Runnung & Usage
 
 Import modules turtle and winsound
-also put the audiofile [](pongbounce.wav) to one folder with code
+also put the audiofile [audio](pongbounce.wav) to one folder with code
 
-After should appeat window with pong game
+After running should appear window with pong game
 
-![](Images1/22020-12-21_11-22-48.png)
+![](2020-12-21_11-22-48.png)
 
 Thank you, this was our first computer game!
 
