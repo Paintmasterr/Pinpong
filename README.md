@@ -1,18 +1,18 @@
-# Names Of Those Who Made This Project;
+## Names Of Those Who Made This Project;
 Akif Can DUMAN , 
 
-Zholchubekov Kalmyrza (https://github.com/Paintmasterr)
+Zholchubekov Kalmyrza
 ,
 
 COM20-B
 
-# This Project YouTube Link;
+## This Project YouTube Link;
 
 https://www.youtube.com/watch?v=ZiZdOqJtVFY
 
 Programing Languages 1 Final Project
 
-# Pinpong Game general information
+## Pinpong Game general information
 
 -Before making this game, we normally tried it with pygame, but due to some bugs and we couldn't fix it, we had to use the Turtle library and we started the game production phase.
 
@@ -32,6 +32,20 @@ Programing Languages 1 Final Project
 
 -But at the end, there was a problem while closing the game. Canvas problem occurred. We finished the game by writing the canvas codes and a few codes that will solve the problem in the closing of this game in the while code, and now we have prepared for the presentation.
 
-# İmported Modules:
-Turtle, Time and Random
+## Modules 
+
+turtle
+winsound
+
+## Runnung & Usage
+
+Import modules turtle and winsound
+also put the audiofile [](pongbounce.wav) to one folder with code
+
+After should appeat window with pong game
+
+![](Images1/22020-12-21_11-22-48.png)
+
+Thank you, this was our first computer game!
+
 
