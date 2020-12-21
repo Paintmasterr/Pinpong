@@ -142,3 +142,4 @@ while Continue:
 
     elif b.ycor() > ball.ycor() and abs(b.ycor() - ball.ycor()) > 10:
         b_down()
+#hi
